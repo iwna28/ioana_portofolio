@@ -1,0 +1,180 @@
+#uptext {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-size: 50px;
+}
+
+/*PURRFECTLY PREDICTED*/
+#purrfectly {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 700px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+       }
+#h2purrfectly {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+         }
+#purrvideo {
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+
+
+/*LOVE LETTERS FROM BEYOND*/
+#h2love {
+    position: absolute;
+    top: 800px;
+    left: 60px;
+    
+}
+#love {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 690px;
+    position: absolute;
+    top: 850px;
+    left: 60px;
+}
+#lovepersonaje{
+    width: 700px;
+    position: absolute;
+    left: 750px;
+    top: 800px;
+}
+
+
+
+/*DRESS ME UP*/
+#h2dressmeup {
+    position: absolute;
+    top: 1200px;
+    left: 60px;
+}
+#dressmeup {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 700px;
+    position: absolute;
+    top: 1250px;
+    left: 60px;
+}
+#dressup {
+    width: 700px;
+    position: absolute;
+    left: 750px;
+    top: 1200px;
+}
+
+
+
+/*CHARACTER DESIGNS*/
+#h2chdes {
+    position: absolute;
+    top: 1700px;
+    left: 60px;
+         }
+#color-test-2 {
+    width: 49%;
+    top: 1700px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#color-test {
+    width: 60%;
+    position: absolute;
+    top: 2300px;
+    left: 340px;
+
+}
+#outfits {
+    width: 70%;
+    position: absolute;
+    top: 3000px;
+    left: 270px;
+}
+#kai-img {
+    width: 70%;
+    position: absolute;
+    top: 3400px;
+    left: 270px;
+}
+
+
+
+/*EVEN DID NOT EAT THE APPLE*/
+#h2edumation {
+    position: absolute;
+    top: 4300px;
+    left: 60px;
+         }
+#edumation {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 700px;
+    position: absolute;
+    top: 4350px;
+    left: 60px;
+       }
+#eduvideo {
+    width: 700px;
+    position: absolute;
+    top: 4300px;
+    left: 750px;
+}
+
+
+
+/*AVATAR GIFS*/
+#avatarh2{
+    word-spacing: 10px;
+    position: absolute;
+    top: 4750px;
+    left: 60px;
+}
+#avatar {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 480px;
+    position: absolute;
+    top: 4800px;
+    left: 60px;    
+}
+#idle {
+    width: 400px;
+    position: absolute;
+    top: 4750px;
+    left: 550px;
+    padding-bottom: 40px;
+}
+#walk {
+    width: 400px;
+    position: absolute;
+    top: 4750px;
+    left: 1050px;
+    padding-bottom: 40px;
+}
+#run {
+    width: 400px;
+    position: absolute;
+    top: 5100px;
+    left: 550px;
+    padding-bottom: 40px;
+}
+#shoot {
+    width: 400px;
+    position: absolute;
+    top: 5100px;
+    left: 1050px;
+    padding-bottom: 40px;
+}

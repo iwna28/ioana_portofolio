@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>iwna</title>
+
+    <!-- Link to external stylesheet (style.css) -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/works.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    
+
+    <style>
+        /* Custom font import */
+        @font-face {
+            font-family: "Ioana_ioancea-Regular";
+            src: url("fonts/Ioana_ioancea-Regular.ttf") format("truetype");
+        }
+
+        body {
+            font-family: "Ioana_ioancea-Regular", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Hide all pages by default */
+        .page, .back-btn {
+            display: none;
+        }
+
+        /* Show the active page */
+        .active {
+            display: block;
+        }
+
+        /* Back button styles */
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            /* background-color: #eb7198; */
+            color: #000;
+            padding: 10px;
+            border-radius: 5px;
+            border-color: #000;
+            border-width: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Flex layout for centering content */
+        .main-content {
+            text-align: center;
+        }
+
+        #menu {
+            display: flex;
+            justify-content: center;  /* Center the menu items horizontally */
+            gap: 20px;
+        }
+
+        /* Hide elements */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header (Title and Banner Image) -->
+    <div class="main-content">
+        <div class="header">
+            <h1>ioana ioancea</h1>
+            <img id="banner-photo" src="images/cat-dog-smoke.png" alt="cat and dog smoking" width="400" />
+        </div>
+        
+        <!-- Menu -->
+        <div id="menu">
+            <img id="about-btn" src="./images/about.png" alt="About" width="200"/>
+            <img id="videos-btn" src="./images/videos.png" alt="Videos" width="200"/>
+            <img id="contact-btn" src="./images/contact.png" alt="Contact" width="200"/>
+            <img id="works-btn" src="./images/works.png" alt="Works" width="200"/>
+        </div>
+    </div>
+    
+    <!-- Back Button (hidden by default) -->
+    <a href="#" class="back-btn" id="back-btn">back</a>
+
+    <!-- Pages (Initially Hidden) -->
+    <div id="about" class="page">
+        <h2 id="h2about">about</h2>
+        <p id="about"> hi i'm ioana !! i am a visual artist from romania, based in rotterdam. My art is heavily inspired by nostalgia and I love creating art works for those who still haven’t lost their child-like wonder. I specialize in storytelling and my work involves 2D animation, comic books, character designs and illustrations.
+        <br>
+        <br>
+        I am currently still studying animation at the Willem de Kooning Academy in Rotterdam :)    
+        </p>
+        
+        <img id="about-img" src="./images/rollerskate-cat.png"/>
+        
+    </div>
+    
+
+    <div id="videos" class="page">
+        <h2>videos</h2>
+        <p>link to youtube</p>
+    </div>
+    
+    
+
+    <div id="contact" class="page">
+        <h2 id="h2contact">contact</h2>
+        <p id="contact">email &nbsp iwna.ioana@gmail.com
+            <br>
+            <br>
+            instagram &nbsp <a href="https://www.instagram.com/iwna_o.o/"> @iwna_O.O </a>
+        </p>
+        <img id="contact-img" src="./images/phone.png"/>
+    </div>
+    
+    
+    <div id="works" class="page">
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">back up</button>
+ 
+        <h2 id="uptext">works</h2>
+        
+<!--PURRFECTLY PREDICTED-->
+        <h2 id="h2purrfectly">purrfectly predicted</h2>
+        <p id="purrfectly">''Purrfectly predicted'' is a short animated film about the delusion that comes with modern relationships.</p>
+        <video id="purrvideo" width="700" autoplay muted controls>
+            <source src="./images/purrfectly%20predicted.mp4" type="video/mp4">
+            <source src="./images/purrfectly%20predicted.ogg" type="video/ogg">
+        </video>
+        
+        
+<!--LOVE LETTERS-->
+        <h2 id="h2love">love letters from beyond</h2>
+        <p id="love">''Love Letter from Beyond'' is a comic series of short stories about monsters finding love, although not always in easiest ways…the three chapters i have written so far can be read for free on my tumblr, <a href="https://www.tumblr.com/blog/iwna">just click here !</a></p>
+        <img id="lovepersonaje" src="./images/Personaje.png"/>
+        
+
+<!--DRESS ME UP-->
+        <h2 id="h2dressmeup">dress me up</h2>
+        <p id="dressmeup">''Dress me Up'' is a short animated film that simulates an old dress up game and the nostalgia it comes with !</p>
+        <video id="dressup" width="700" autoplay muted controls>
+            <source src="./images/dress me up.mp4" type="video/mp4">
+            <source src="./images/dress me up.ogg" type="video/ogg">
+        </video>
+        
+        
+<!--CHARACTER DESIGNES-->
+        <h2 id="h2chdes">character designs</h2>
+        <img id="kai-img" src="./images/Kai_Character_Sheet_Finalized (1).png"/>
+        <img id="color-test" src="./images/color test.png"/>
+        <img id="outfits" src="./images/outfit test.png"/>
+        <img id="color-test-2" src="./images/color%20test%202.png"/>
+        
+        
+<!--EDUMATION-->
+        <h2 id="h2edumation">eve did not buy the apple</h2>
+        <p id="edumation">''Eve Did Not Buy the Apple'' is a short educational animation that brings into discussion the importance of sustainably sourced foods with a focus on community.</p>
+        <video id="eduvideo" width="700" autoplay muted controls>
+            <source src="./images/even.did_.not_.eat_.the_.apple.mp4" type="video/mp4">
+            <source src="./images/even.did_.not_.eat_.the_.apple.ogg" type="video/ogg">
+        </video>
+
+<!--AVATAR 3D        -->
+        <h2 id="avatarh2">3d retro game character</h2>
+        <p id="avatar">Here is a character that i modeled and rigged using blender. She is inspired by retro sci-fi while also trying to bring back graphics from old game consoles. These are her basic moves if she were to be put in a playable game engine! </p>
+        <img id="idle" src="./images/idle.gif"/>
+        <img id="walk" src="./images/walk.gif"/>
+        <img id="run" src="./images/run.gif"/>
+        <img id="shoot" src="./images/shoot.gif"/>
+        
+    </div>
+
+    <script>
+        // Get references to all buttons and sections
+        const aboutBtn = document.getElementById('about-btn');
+        const videosBtn = document.getElementById('videos-btn'); // Videos Button
+        const contactBtn = document.getElementById('contact-btn');
+        const worksBtn = document.getElementById('works-btn');
+        
+        const pages = document.querySelectorAll('.page');
+        const mainContent = document.querySelector('.main-content');
+        const backBtn = document.getElementById('back-btn');
+
+        // Function to hide all sections
+        function hideAllPages() {
+            pages.forEach(page => page.classList.remove('active'));
+        }
+
+        // Function to show a specific section
+        function showPage(pageId) {
+            hideAllPages();              // Hide all pages
+            document.getElementById(pageId).classList.add('active');  // Show the selected page
+            mainContent.classList.add('hidden');  // Hide the main menu and header
+            backBtn.classList.add('active');  // Show the back button
+        }
+
+        // Event listeners for menu buttons
+        aboutBtn.addEventListener('click', () => showPage('about'));
+        contactBtn.addEventListener('click', () => showPage('contact'));
+        worksBtn.addEventListener('click', () => showPage('works'));
+
+        // Redirect the user when the "Videos" button is clicked
+        videosBtn.addEventListener('click', () => {
+            window.location.href = 'https://www.youtube.com/@iwnaa'; // Replace with your desired URL
+        });
+
+        // Back button functionality
+        backBtn.addEventListener('click', (e) => {
+            e.preventDefault();           // Prevent the default anchor behavior
+            hideAllPages();               // Hide the current page
+            mainContent.classList.remove('hidden');  // Show the main menu and header
+            backBtn.classList.remove('active');  // Hide the back button
+        });
+        
+                // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        
+    </script>
+</body>
+</html>
