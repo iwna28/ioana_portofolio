@@ -5,24 +5,68 @@
     font-size: 50px;
 }
 
+/*CAREFUL WHAT YOU WISH FOR*/
+#careful {
+    line-height: 150%;
+    word-spacing: 10px;
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+}
+
+#h2careful {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+         }
+
+#carefulvideo1 {
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+#carefulvideo2 {
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}
+
+#carefulvideo3 {
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 750px;
+}
+
+#carefulvideo4 {
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+}
+
 /*PURRFECTLY PREDICTED*/
 #purrfectly {
     line-height: 150%;
     word-spacing: 10px;
     width: 700px;
     position: absolute;
-    top: 250px;
+    top: 850px;
     left: 60px;
        }
 #h2purrfectly {
     position: absolute;
-    top: 200px;
+    top: 800px;
     left: 60px;
          }
 #purrvideo {
     width: 700px;
     position: absolute;
-    top: 200px;
+    top: 800px;
     left: 750px;
 }
 
@@ -31,7 +75,7 @@
 /*LOVE LETTERS FROM BEYOND*/
 #h2love {
     position: absolute;
-    top: 800px;
+    top: 1400px;
     left: 60px;
     
 }
@@ -40,14 +84,14 @@
     word-spacing: 10px;
     width: 690px;
     position: absolute;
-    top: 850px;
+    top: 1450px;
     left: 60px;
 }
 #lovepersonaje{
     width: 700px;
     position: absolute;
     left: 750px;
-    top: 800px;
+    top: 1400px;
 }
 
 
@@ -55,7 +99,7 @@
 /*DRESS ME UP*/
 #h2dressmeup {
     position: absolute;
-    top: 1200px;
+    top: 1800px;
     left: 60px;
 }
 #dressmeup {
@@ -63,14 +107,14 @@
     word-spacing: 10px;
     width: 700px;
     position: absolute;
-    top: 1250px;
+    top: 1850px;
     left: 60px;
 }
 #dressup {
     width: 700px;
     position: absolute;
     left: 750px;
-    top: 1200px;
+    top: 1800px;
 }
 
 
@@ -78,12 +122,12 @@
 /*CHARACTER DESIGNS*/
 #h2chdes {
     position: absolute;
-    top: 1700px;
+    top: 2300px;
     left: 60px;
          }
 #color-test-2 {
     width: 49%;
-    top: 1700px;
+    top: 2300px;
     position: relative;
     display: block;
     margin-left: auto;
@@ -93,20 +137,20 @@
 #color-test {
     width: 60%;
     position: absolute;
-    top: 2300px;
+    top: 2970px;
     left: 340px;
 
 }
 #outfits {
     width: 70%;
     position: absolute;
-    top: 3000px;
+    top: 3650px;
     left: 270px;
 }
 #kai-img {
     width: 70%;
     position: absolute;
-    top: 3400px;
+    top: 4000px;
     left: 270px;
 }
 
@@ -115,7 +159,7 @@
 /*EVEN DID NOT EAT THE APPLE*/
 #h2edumation {
     position: absolute;
-    top: 4300px;
+    top: 4900px;
     left: 60px;
          }
 #edumation {
@@ -123,13 +167,13 @@
     word-spacing: 10px;
     width: 700px;
     position: absolute;
-    top: 4350px;
+    top: 4950px;
     left: 60px;
        }
 #eduvideo {
     width: 700px;
     position: absolute;
-    top: 4300px;
+    top: 4900px;
     left: 750px;
 }
 
@@ -139,7 +183,7 @@
 #avatarh2{
     word-spacing: 10px;
     position: absolute;
-    top: 4750px;
+    top: 5350px;
     left: 60px;
 }
 #avatar {
@@ -147,34 +191,34 @@
     word-spacing: 10px;
     width: 480px;
     position: absolute;
-    top: 4800px;
+    top: 5400px;
     left: 60px;    
 }
 #idle {
     width: 400px;
     position: absolute;
-    top: 4750px;
+    top: 5350px;
     left: 550px;
     padding-bottom: 40px;
 }
 #walk {
     width: 400px;
     position: absolute;
-    top: 4750px;
+    top: 5350px;
     left: 1050px;
     padding-bottom: 40px;
 }
 #run {
     width: 400px;
     position: absolute;
-    top: 5100px;
+    top: 5700px;
     left: 550px;
     padding-bottom: 40px;
 }
 #shoot {
     width: 400px;
     position: absolute;
-    top: 5100px;
+    top: 5700px;
     left: 1050px;
     padding-bottom: 40px;
 }
